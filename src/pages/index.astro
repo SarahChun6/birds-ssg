@@ -1,4 +1,6 @@
 ---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -10,6 +12,19 @@
     <title>My Astro Site</title>
   </head>
   <body>
+    <Header/>
+
     <h1>My Astro Site</h1>
+    <h2>... about birds!</h2>
+
+    <p>I am working through Astro's introductory tutorial. <a href="https://docs.astro.build/en/tutorial/2-pages/3/">https://docs.astro.build/en/tutorial/2-pages/3/</a></p>
+
+    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+    <ul>
+        <li><a href="/posts/allen-hummingbird/">Allen Hummingbird</a></li>
+        <li><a href="/posts/cerulean-warbler/">Cerulean Warbler</a></li>
+        <li><a href="/posts/piping-plover/">Piping Plover</a></li>
+    </ul>
+    <Footer/>
   </body>
 </html>
